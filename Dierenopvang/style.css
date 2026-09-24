@@ -9,3 +9,9 @@ h2 {
 p {
     font-size: 17px;
 }
+article {
+    background-color: #e44089; /* licht roze */
+    padding: 20px;
+    border: 3px solid #fdf1f7; /* donker roze */
+    margin: 25px;
+} 
