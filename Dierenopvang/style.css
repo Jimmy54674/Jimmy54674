@@ -3,15 +3,30 @@ body {
 }
 
 h2 {
-    color: rgba(247, 247, 247, 0.925);
+    color: rgba(250, 246, 246, 0.925);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.925);
 }
 
 p {
     font-size: 17px;
 }
-article {
-    background-color: #e44089; /* licht roze */
+.stone {
+    background-color: #72d1fd; /* licht roze */
     padding: 20px;
+    border: 5px solid #fffdfd; /* donker roze */
+    margin: 20px;
+    width: 50%;
+
+
+}
+.article {
+    background-color: #e44089; /* licht roze */
+    padding: 600px;
     border: 3px solid #fdf1f7; /* donker roze */
-    margin: 25px;
+    margin: 20px;
+    width: 100%;
+    
 } 
