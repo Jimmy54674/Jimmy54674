@@ -36,20 +36,20 @@ img {
 }
 
 .binkie {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border-radius: 150px;
     border: 5px solid #8f68eb; /* donker roze */
 } 
 
 .siepie {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border-radius: 150px;
     border: 5px solid #8f68eb; /* donker roze */
 }.takkie {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border-radius: 150px;
     border: 5px solid #8f68eb; /* donker roze */
 }
