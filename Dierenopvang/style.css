@@ -56,11 +56,25 @@ img {
     border: 5px solid #8f68eb; /* donker roze */
 }
 
-body {
-    display: grid;
-    min-height: 110vh;
-    grid-template-columns: 250px auto;
-    grid-template-rows: 100px 170px auto 150px;
+.grid-container-h4 {
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-template-rows: auto auto auto auto;
+ grid-template-areas:
+   "hdr hdr hdr hdr"
+   "nv mn mn mn"
+   "nv mn mn mn"
+   "ftr ftr ftr ftr";
+ gap: 25px;
 }
-
-
+header {grid-area:hdr;}
+main {grid-area:mn;}
+nav {grid-area:nv;}
+footer {grid-area:ftr;}
+.grid-h4, header, main, nav, footer {
+    background-color: #72d1fd;
+    place-items: center;
+    padding: 20px;
+    border: 5px solid #fffdfd; /* donker roze */
+    margin: 20px;
+}
